@@ -1,6 +1,6 @@
 # Near Real-Time Machine Learning-Based Intrusion Detection System
 
-MSc Cyber Security dissertation project developed at Leeds Beckett University.
+Mathias Amade MSc Cyber Security dissertation project developed at Leeds Beckett University.
 
 ## Project Overview
 
