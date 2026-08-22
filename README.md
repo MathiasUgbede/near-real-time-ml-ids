@@ -31,10 +31,18 @@ VM1 sends network-flow records to VM2 using a TCP connection. VM2 classifies eac
 - Average Detector-Side Latency: 28.83 ms
 - Throughput: 34.6 flows/second
 
+# Experimental Results
+
+This folder contains selected outputs from the machine learning intrusion detection experiments.
+
 ## Files
 
-- `MSc_Cybersecurity_Dissertation.pdf` – Final MSc dissertation
-- `scripts/` – Python implementation scripts
+- `feature_importance_chart.png` – Top selected features from Random Forest feature importance.
+- `rf_confusion_matrix.png` – Random Forest confusion matrix.
+- `gb_confusion_matrix.png` – Gradient Boosting confusion matrix.
+- `svm_confusion_matrix.png` – Support Vector Machine confusion matrix.
+- `realtime_latency_histogram.png` – Distribution of detector-side processing latency during the two-VM experiment.
+- `realtime_detection_results.txt` – Summary of the streamed Random Forest detection experiment.
 
 ## Dataset
 
