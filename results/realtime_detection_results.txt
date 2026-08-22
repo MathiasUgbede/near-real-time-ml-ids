@@ -1,0 +1,21 @@
+TWO-VM REAL-TIME DETECTION RESULTS (Random Forest)
+==================================================
+Flows processed (total): 1000
+Flows in statistics: 990 (warm-up 10 discarded)
+
+-- Classification latency (pure model) --
+Average: 28.7813 ms
+Median:  26.3213 ms
+Min:     13.0095 ms
+Max:     110.6546 ms
+Std dev: 12.8324 ms
+
+-- End-to-end latency (arrival to decision) --
+Average: 28.8301 ms
+Median:  26.3590 ms
+Min:     13.0346 ms
+Max:     110.6973 ms
+Std dev: 12.8501 ms
+
+Throughput: 34.6 flows per second
+Detection accuracy: 88.40%
